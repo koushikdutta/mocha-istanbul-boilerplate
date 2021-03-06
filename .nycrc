@@ -1,0 +1,20 @@
+{
+  "extension": [
+    ".js",
+    ".ts"
+  ],
+  "include": [
+    "test/*.js",
+    "test/*.ts"
+  ],
+  "exclude": [
+    "**/*.d.ts"
+  ],
+  "reporter": [
+    "html",
+    "text",
+    "text-summary"
+  ],
+  "report-dir" : "./reports",
+  "all": true
+}

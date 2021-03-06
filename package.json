@@ -1,0 +1,40 @@
+{
+  "name": "mocha-istanbul-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist --extensions \".js,.ts\" --source-maps inline",
+    "test": "nyc mocha --timeout=5000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koushikdutta/mocha-istanbul-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/koushikdutta/mocha-istanbul-boilerplate/issues"
+  },
+  "homepage": "https://github.com/koushikdutta/mocha-istanbul-boilerplate#readme",
+  "keywords": [
+    "mocha",
+    "nyc",
+    "typescript",
+    "istanbul"
+  ],
+  "author": "koushik.dutta[at]rebaca.com",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.13.0",
+    "@babel/core": "^7.13.8",
+    "@babel/plugin-proposal-class-properties": "^7.10.1",
+    "@babel/preset-env": "^7.13.9",
+    "@babel/preset-typescript": "^7.13.0",
+    "@babel/register": "^7.13.8",
+    "typescript": "^3.7.5"
+  },
+  "devDependencies": {
+    "@types/mocha": "^2.2.32",
+    "mocha": "^8.3.1",
+    "nyc": "^15.1.0"
+  }
+}
